@@ -51,9 +51,24 @@
             display: block;
             margin-left: 0;
         }
+	     table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 0px solid #ddd;
+            padding: 8px;
+            text-align: left;
+	    vertical-align: top;
+            width: 50%;
+        }
     </style>
 </head>
 <body>
+ <table>
+	 <tr>
+         <th>
     <h2>Kontakt Details</h2>
     <form>
         <label for="vorname">Vorname:</label>
@@ -87,12 +102,16 @@
         <input type="text" id="land" name="kundenstatus" value="VIP Kunde">
 
         <label for="geburtsdatum">Geburtsdatum:</label>
-        <input type="date" id="geburtsdatum" name="geburtsdatum" value="1980-01-01">
+        <input type="date" id="geburtsdatum" name="geburtsdatum" value="1990-01-01">
 
         <input type="submit" value="speichern">
     </form>
-
+	</th>
+	<th>	 
 	 <h2>Produktübersicht</h2>
     <img src="warenkorb.png" width="832" height="1240" alt=""> 
+	</th>
+    </tr>
+ </table>	 
 </body>
 </html>
