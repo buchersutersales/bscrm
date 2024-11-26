@@ -46,9 +46,15 @@
         input[type="submit"]:hover {
             background-color: #5a9bd4;
         }
+		img {
+            width: 20%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
+ <h2>Anruferdaten</h2>
+    <img src="https://profile-images.xing.com/images/f0aafbbe561656348a268a75d48ab5ac-10/thorsten-schneider.1024x1024.jpg" alt="Profilbild">
     <h2>Kontakt Details</h2>
     <form>
         <label for="vorname">Vorname:</label>
@@ -60,14 +66,29 @@
         <label for="adresse">Adresse:</label>
         <input type="text" id="adresse" name="adresse" value="Stubenwald-Allee 19">
 
+		<label for="adresse">Ort:</label>
+        <input type="text" id="ort" name="ort" value="Bensheim">
+
         <label for="plz">PLZ:</label>
         <input type="text" id="plz" name="plz" value="64625">
 
         <label for="land">Land:</label>
         <input type="text" id="land" name="land" value="Deutschland">
+		
+		<label for="land">Festnetz:</label>
+        <input type="text" id="festnetz" name="festnetz" value="+49 6251 8622636">
+		
+		<label for="land">Mobil:</label>
+        <input type="text" id="mobil" name="mobil" value="+49 172 8080080">
+		
+		<label for="land">Land:</label>
+        <input type="text" id="land" name="land" value="Deutschland">
+		
+		<label for="land">Land:</label>
+        <input type="text" id="land" name="land" value="Deutschland">
 
         <label for="geburtsdatum">Geburtsdatum:</label>
-        <input type="date" id="geburtsdatum" name="geburtsdatum" value="01.09.1960">
+        <input type="date" id="geburtsdatum" name="geburtsdatum" value="1990-01-01">
 
         <input type="submit" value="Absenden">
     </form>
